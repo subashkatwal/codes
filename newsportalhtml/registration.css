@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar {
+    background-color: #056479;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 20px;
+ margin-top: 10px;
+
+
+  
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.right {
+   
+    flex-direction: column;
+align-items: stretch;
+background-color: #097905
+
+   
+}
+
+.navbar button {
+   font-size: larger;
+    color:#ddd; 
+    border: 1px solid #ddd;
+    border-width: 10px;
+
+
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+.navbar ul li a:hover {
+    background-color: #ddd;
+    color: green;
+}
+
+
+
+/* Search button ko css */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 14%;
+    padding: 11px ;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  /*  Registration css */
+
+  body{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+input[type=email],input[type=password]{
+width: 100%;
+padding: 10px;
+/* align-items: center; */
+margin: 5px 22px 0px;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+
+input[type=email]:focus,input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+button{
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+
+  button:hover{
+    opacity: 1;
+  }
+
+  .cancelbtn,.signupbtn{
+    float: left;
+    width: 50%;
+  }
+
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+.main{
+    padding: 16px;
+}
+
+.reg-button::after{
+    content: "";
+    clear: both;
+    
+
+}
+
+
+/* sabai kuralai centre ma layauna */
+.container {
+    width: 50%; 
+    margin: auto;
+}
+
+.container.signin a{
+  align-items: center;
+}
+.buttons a {
+  display: flex;
+}
